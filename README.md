@@ -1,7 +1,6 @@
 echo "# Demo_RestAPI_Testing" >> README.md
-git init
-git add README.md
+git init  -- To Create a local repository in our machine
+git remote add origin <<Provide the Git Repo Link>>
+git add <<filename>>
 git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/missunique01/Demo_RestAPI_Testing.git
-git push -u origin maingit 
+git push -u origin master -- To push the file to our git repo -u is opitional this will ask our username & password
